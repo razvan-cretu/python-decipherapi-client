@@ -1,5 +1,5 @@
 package:
-  name: decipherapiclient
+  name: python-decipherapi-client
   version: "0.0.1"
 
 build:
