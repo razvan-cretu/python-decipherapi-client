@@ -1,0 +1,27 @@
+package:
+  name: DecipherAPIClient
+  version: "0.0.1"
+
+build:
+  number: 1
+  script: python setup.py install
+
+source:
+  hg_url: https://github.com/razvan-cretu/python-decipherapi-client
+
+requirements:
+  build:
+    - python
+
+  run:
+    - python
+
+about:
+  home: https://github.com/razvan-cretu/python-decipherapi-client
+  license: MIT
+  license_file: LICENSE
+  summary: A simple package.
+
+extra:
+  maintainers:
+   - Cretu Razvan <razvan.cretu@dynata.com>
