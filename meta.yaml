@@ -6,9 +6,6 @@ build:
   number: 1
   script: python setup.py install
 
-source:
-  hg_url: https://github.com/razvan-cretu/python-decipherapi-client
-
 requirements:
   build:
     - python
